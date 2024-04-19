@@ -2629,7 +2629,7 @@ input, select, textarea {
 			}
 
 			.image.fit img {
-				width: 100%;
+				width: 60%;
 			}
 
 		.image.main {
@@ -3853,20 +3853,21 @@ input, select, textarea {
 			}
 
 			#main > .posts > * {
-				width: 50%;
+				width: 100%;
 			}
 
 			#main > .posts > * {
 				padding: 4rem;
-				width: 50%;
+				width: 100%;
 			}
 
 			#main > .posts > article {
 				border-color: #eeeeee;
-				border-left-width: 2px;
+				/*border-left-width: 2px;*/
 				border-style: solid;
-				border-top-width: 2px;
+				/*border-top-width: 2px;*/
 				text-align: center;
+				border-bottom-width: 3px;
 			}
 
 				#main > .posts > article > :last-child {
@@ -4687,3 +4688,7 @@ input, select, textarea {
 		}
 
 	}
+	
+.posts p {
+  font-size: 17px;
+}	
